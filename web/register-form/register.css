@@ -1,0 +1,54 @@
+
+/* 
+    Author     : Thinh Nguyen
+*/
+
+body {
+    background-image: url('img/book_register.png');
+    background-color: #f0f0f0; /* Màu nền */
+    font-family: Arial, sans-serif; /* Kiểu chữ */
+}
+
+.img {
+    background-size: cover; /* Hiển thị hình ảnh với kích thước đủ để che phủ toàn bộ nền */
+    background-position: center; /* Căn giữa hình ảnh */
+    background-repeat: repeat-y;
+}
+
+form {
+    background-color: #fff; /* Nền của form */
+    padding: 20px; /* Khoảng cách giữa form và khung */
+    border-radius: 10px; /* Bo tròn các góc của form */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2); /* Hiệu ứng bóng đổ */
+    width: 300px; /* Độ rộng của form */
+    margin: 50px auto; /* Canh giữa form */
+}
+
+label {
+    display: block; /* Hiển thị nhãn trên một dòng riêng biệt */
+    margin-bottom: 8px; /* Khoảng cách giữa các nhãn */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%; /* Độ rộng của các trường nhập liệu */
+    padding: 10px; /* Khoảng cách bên trong của trường nhập liệu */
+    margin-bottom: 15px; /* Khoảng cách giữa các trường */
+    border: 1px solid #ccc; /* Viền của trường nhập liệu */
+    border-radius: 5px; /* Bo tròn các góc của trường nhập liệu */
+    box-sizing: border-box; /* Không tính phần padding vào kích thước tổng */
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Màu nền của nút submit */
+    color: #fff; /* Màu chữ của nút submit */
+    border: none; /* Không có viền */
+    padding: 10px 20px; /* Khoảng cách bên trong của nút */
+    border-radius: 5px; /* Bo tròn các góc của nút */
+    cursor: pointer; /* Con trỏ chuột khi di chuyển vào nút */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Màu nền của nút submit khi di chuột qua */
+}
